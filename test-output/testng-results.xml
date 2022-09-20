@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-20T11:09:06 IST" name="Default suite" finished-at="2022-09-20T11:09:09 IST" duration-ms="2636">
+    <groups>
+      <group name="sanity">
+        <method signature="MavenPractice2Test.step1Test()[pri:0, instance:org.sdet40.practice.MavenPractice2Test@31fa1761]" name="step1Test" class="org.sdet40.practice.MavenPractice2Test"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-09-20T11:09:06 IST" name="Default test" finished-at="2022-09-20T11:09:09 IST" duration-ms="2636">
+      <class name="org.sdet40.practice.MavenPractice2Test">
+        <test-method signature="step1Test()[pri:0, instance:org.sdet40.practice.MavenPractice2Test@31fa1761]" started-at="2022-09-20T11:09:06 IST" name="step1Test" finished-at="2022-09-20T11:09:09 IST" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1Test -->
+      </class> <!-- org.sdet40.practice.MavenPractice2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

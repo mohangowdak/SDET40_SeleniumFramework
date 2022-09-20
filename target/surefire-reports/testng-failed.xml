@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [org.sdet40.practice.MavenPractice2Test]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.sdet40.practice.MavenPractice2Test">
+        <methods>
+          <include name="step1Test"/>
+        </methods>
+      </class> <!-- org.sdet40.practice.MavenPractice2Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [org.sdet40.practice.MavenPractice2Test] -->
