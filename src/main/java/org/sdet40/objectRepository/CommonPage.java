@@ -12,7 +12,7 @@ public class CommonPage {
 	private String dynamicXpath="//a[.='%s']";
 	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']") 
 	private WebElement adminstrationIcon;
-
+//changes done by engg-2
 	//intialization all element variable
 	public CommonPage(WebDriver driver) {
 		this.driver=driver;
