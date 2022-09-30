@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sdet40.practice.MavenPractice2Test">
+      <class name="org.vtiger.contacts.CreateContactsTest">
         <methods>
-          <include name="step1Test"/>
+          <include name="createContactsTest"/>
+          <include name="methodTearDown"/>
+          <include name="classSetUp"/>
+          <include name="methodSetUp1"/>
+          <include name="classTearDown"/>
         </methods>
-      </class> <!-- org.sdet40.practice.MavenPractice2Test -->
+      </class> <!-- org.vtiger.contacts.CreateContactsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
