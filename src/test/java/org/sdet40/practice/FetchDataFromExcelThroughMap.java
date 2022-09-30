@@ -13,6 +13,7 @@ public class FetchDataFromExcelThroughMap {
 		excelUtiltiy.openExcel(IConstantPath.EXCEL_PATH);
 		Map<String, String> map = excelUtiltiy.getDataFromExcelInMap("form");
 		System.out.println(map.get("City"));
+		//
 		
 		
 	}
